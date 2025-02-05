@@ -3,6 +3,7 @@ this is final exam of computer organization laboratory in Electrical Engineering
 This VHDL code describes a Counter Module that counts from 0 to 50 in an up/down fashion based on a control signal (key). Here’s a breakdown of its features:
 
 Functionality
+
 Clock Divider
 
 The input clock is divided to generate a 1-second pulse (clk_1s), ensuring the counter updates once per second.
@@ -15,7 +16,9 @@ Special Conditions
 
 The counter stops at 50 when counting up.
 The counter stops at 00 when counting down.
+
 Signals
+
 pr_state_ones, pr_state_tens: Track the current state for ones and tens.
 nx_state_ones, nx_state_tens: Determine the next state.
 clk_1s: Generated clock pulse (1 Hz).
